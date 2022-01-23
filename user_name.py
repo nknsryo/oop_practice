@@ -18,7 +18,7 @@ class UserName:
         self.name = name
 
     def battle_name(self):
-        # 全大文字で表示
+        # .upper -> 全大文字で表示
         return self.name.upper()
 
 
